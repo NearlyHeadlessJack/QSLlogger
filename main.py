@@ -12,6 +12,7 @@ PATH_INDEX_SEND = './html/index.html'
 PATH_INDEX_RECEIVED = './html/received/index.html'
 INDEX_INSERT = 22
 
+
 class QslListener:
     def __init__(self):
         self.qsl = Flask(__name__)
