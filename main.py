@@ -32,7 +32,7 @@ class QslListener:
 
 
 def insert_index(text_insert, time_insert, path) -> str:
-    text = '<tr><th>'+time_insert+'</th><th>'+text_insert+'</th></tr>\n'
+    text = '<tr><td>'+time_insert+'</td><td>'+text_insert+'</td></tr>\n'
     with open(path,'r') as f:
         lines = f.readlines()
         lines.insert(INDEX_INSERT, text)
