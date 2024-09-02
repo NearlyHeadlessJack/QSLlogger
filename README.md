@@ -1,6 +1,8 @@
 # QSLlogger
+
+```
 .
-├── README.md
+├── README.md 
 ├── client
 │   └── main.py  # 客户端程序
 ├── html  #  web服务器文件
@@ -8,6 +10,7 @@
 │   └── received
 │       └── index.html
 └── main.py  # 服务端程序
+```
 
 # 这是一个简易的QSL卡片收发信息记录网站
 您可以把html里的内容部署到您的web服务器，如Nginx、Apache等。
